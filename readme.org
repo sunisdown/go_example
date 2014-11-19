@@ -1,0 +1,8 @@
+* Goalng 联系代码
+
+** 问题
+
+   * numeric-constants 中有一行代码是
+
+     Big     = 1 << 100
+   这里面Big 是什么？
