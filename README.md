@@ -45,6 +45,9 @@ v.X := 4 会有错误
 go tour 中为什么`say(hello)`能够正确的执行`0..4`五次，而`go say(hello)`只能够正
 确的执行`0..3`四次。
 
+`go` 会将say('world')丢掉 goroutines 里面运行，进程退出的时候不会等到 goroutine
+结束。
+
 ### select 的使用方法
 
 选择准备好的goroutines 来执行，多个 goroutines 都可以执行的时候，则随机选择。
