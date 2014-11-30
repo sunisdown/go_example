@@ -63,3 +63,7 @@ go tour 中为什么`say(hello)`能够正确的执行`0..4`五次，而`go say(h
 
 一个 defer 的过程要处理缓存对象，参数拷贝，多次函数调用。这样性能会有损耗，在平
 时代码中要合理的使用 defer。
+
+### range
+
+range 会复制对象，见 range_copy.go
