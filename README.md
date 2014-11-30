@@ -57,3 +57,9 @@ go tour 中为什么`say(hello)`能够正确的执行`0..4`五次，而`go say(h
 ### select 的使用方法
 
 选择准备好的goroutines 来执行，多个 goroutines 都可以执行的时候，则随机选择。
+
+
+### defer 使用
+
+一个 defer 的过程要处理缓存对象，参数拷贝，多次函数调用。这样性能会有损耗，在平
+时代码中要合理的使用 defer。
