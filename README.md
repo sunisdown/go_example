@@ -2,19 +2,24 @@
 
 ## FAQ
 
-###
+### <<
 
 numeric-constants.go 中有一行代码是
 
+```golang
     Big     = 1 << 100
+```
+
 
 这里面Big 是什么？
+`<<`是将`1` 的二进制向左移动`100`位。
+
 
 ### 声明变量与赋值
 
 struct 字段遇见的问题
 
-```python
+```golang
 
 type
 Vertex struct {
