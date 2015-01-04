@@ -35,6 +35,14 @@
 * [map](src/map-literals.go)
 * [mutating maps](src/mutating-maps.go)
 
+### Methods and interfaces
+
+* [methods](src/methods.go)
+* [methods of type](src/methods-continued.go)
+* [methods of type](src/methods-continued.go)
+* [Methods with pointer receivers](src/methods-with-pointer-receivers.go)
+* [Methods and pointer](src/methods-pointer.go)
+* [interface](src/interface.go)
 
 ## FAQ
 
