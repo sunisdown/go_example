@@ -1,5 +1,41 @@
 # Goalng 练习代码
 
+## 目录
+
+### 基础
+
+* [变量](src/variables.go)
+* [类型变换](src/type-coversion.go)
+* [类型变换](src/type-inference.go)
+* [base type 基本类型](src/basic-type.go)
+* [constants 常量](src/constants.go)
+* [number constants 数值常量](src/numeric-constants.go)
+* [functions 函数](src/functions.go)
+* [functions values](src/function-values.go)
+* [functions closures](src/function-closures.go)
+* [for](src/for.go)
+* [if](src/if-and-else.go)
+* [switch](src/switch.go)
+* [switch evaluation order](src/switch-evaluation-order.go)
+* [defer](src/defer.go)
+* [stacking defers](src/defer-multi.go)
+* [pointer](src/pointers.go)
+* [struct](src/structs.go)
+* [pointers to struct](src/structs-points.go)
+* [structs lierals](src/struct-lierals.go)
+* [array](src/array.go)
+* [array slice](src/slice.go)
+* [slicing slice](src/slicing-slices.go)
+* [making slice](src/making-slices.go)
+* [nil slice](src/nil-slices.go)
+* [Adding elements to a slice](src/append.go)
+* [range](src/range.go)
+* [range copy](src/range-copy.go)
+* [range and close](src/range-and-close.go)
+* [map](src/map-literals.go)
+* [mutating maps](src/mutating-maps.go)
+
+
 ## FAQ
 
 ### <<
